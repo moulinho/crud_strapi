@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_items",
+  "info": {
+    "name": "foodItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "expirationdate": {
+      "type": "date"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
